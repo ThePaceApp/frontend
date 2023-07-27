@@ -63,3 +63,14 @@ nav.sticky{
         width: 70px;
     }
 }
+@media screen and (max-width:330px){
+    .Navsms{
+        padding: 20px 5px;
+    }
+    .navIcon img{
+        width:130px ;
+    }
+    .navLinks{
+        gap: 5px;
+    }
+}

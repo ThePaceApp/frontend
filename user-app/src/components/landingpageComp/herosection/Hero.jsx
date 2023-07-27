@@ -4,7 +4,7 @@ import heroIg from "../../../assets/Group 213 (1).png"
 
 const Hero = () => {
   return (
-    <se>
+    <>
     <div className='heroSection'>
         <div className="herocontainer">
         <div className='herodetails'> 
@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
         </div> 
         </div>
-      </se>
+      </>
   )
 }
 

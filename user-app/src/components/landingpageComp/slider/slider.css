@@ -93,7 +93,7 @@
   }
   @media screen and (max-width:920px){
     .carousel {
-      margin: 0 10px;
+      margin: 0px 10px;
     }
   }
   @media screen and (max-width:420px){
@@ -101,4 +101,15 @@
     font-size:25px ;
     letter-spacing: 0.09rem;
     }
+  }
+  @media screen and (max-width:320px){
+  .slidertop h1{
+    font-size: 22px;
+  }
+  .slidertop p{
+    text-align: center;
+  }
+   .carousel-item-text{
+    width: 300px;
+   }
   }

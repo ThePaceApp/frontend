@@ -67,3 +67,8 @@
         margin: 0px 15px;
     }
 }
+@media screen and (max-width:320px){
+    .bloginfo{
+        margin-left: 40px;
+    }
+}

@@ -24,6 +24,8 @@ const LandingPage = () => {
   return (
     <div>
         <Navbar scrollToSection={scrollToSection} hero={hero} details={details} donated={donated}/>
+      <div style={{overflowX:'hidden'}}>
+
         <div ref={hero}>
         <Hero/>
         </div>
@@ -38,6 +40,7 @@ const LandingPage = () => {
         </div>
         <About/>
         <Footer/>
+    </div>
     </div>
   )
 }
