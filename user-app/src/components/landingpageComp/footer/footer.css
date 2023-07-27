@@ -42,6 +42,12 @@
         margin-top: 10px;
     }
 }
+@media screen and (max-width:420px){
+    .footercopy{
+        margin: 0 10px;
+        font-size: 10px;
+    }
+}
 @media screen and (max-width:920px){
     .footerfluid{
         padding-left: 20px;

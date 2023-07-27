@@ -9,6 +9,7 @@ import BlogData from '../../BlogData'
 import Donate from '../../components/landingpageComp/donate/Donate'
 import About from '../../components/landingpageComp/about/About'
 import Footer from '../../components/landingpageComp/footer/Footer'
+import './landingpage.css'
 
 const LandingPage = () => {
   const hero = useRef(null);
@@ -23,9 +24,8 @@ const LandingPage = () => {
   };
   return (
     <div>
-        <Navbar scrollToSection={scrollToSection} hero={hero} details={details} donated={donated}/>
-      <div style={{overflowX:'hidden'}}>
-
+      <Navbar scrollToSection={scrollToSection} hero={hero} details={details} donated={donated}/>
+       <div style={{overflowX:'hidden'}}>
         <div ref={hero}>
         <Hero/>
         </div>
@@ -35,7 +35,7 @@ const LandingPage = () => {
         </div>
         <Slider/>
         <BlogData />
-        <div ref={donated} style={{paddingTop:"100px"}}>
+        <div ref={donated} className="BxDonate">
         <Donate/>
         </div>
         <About/>
