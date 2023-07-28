@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
         <div className="footercopy">
           <img src={Nig} alt="" width={'30px'} height={'10px'}/>
-          Copyright ©  2021-2021 The Pace App. All rights reserved.
+           ©  2023 The Pace App. All rights reserved.okay
         </div>
     </div>
   )
