@@ -64,10 +64,10 @@ const Footer = () => {
         </div>
         <div className="footercopy">
           <img src={Nig} alt="" width={'30px'} height={'10px'}/>
-           ©  2023 The Pace App. All rights reserved.okay
+           ©  2023 The Pace App. All rights reserved
         </div>
     </div>
   )
 }
 
-export default Footer
+export default Footer 
