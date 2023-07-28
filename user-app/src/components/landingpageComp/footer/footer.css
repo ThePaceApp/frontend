@@ -41,6 +41,9 @@
     .company{
         margin-top: 10px;
     }
+    .footercopy{
+        margin: 0px 20px;
+    }
 }
 @media screen and (max-width:420px){
     .footercopy{
