@@ -3,42 +3,49 @@
     color: #FFFFFF; 
     padding-top: 40px;
     height: 550px;
+    font-family: 'proxima_nova_rgregular';
+
+    
 }
 .herocontainer{
     display: flex;
-    flex-direction: row;
 }
 .herodetails{    
     flex: 1;
     margin-top: 80px;
 }
 .herodetail{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     margin-left: 130px;
-    height: auto;
 }
 
 .herobx{
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: #FFFFFF;
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: 1px;
 }
 .subbtd{
    height: auto;
-   width: 23rem;
-   font-size: 1.5rem;
+   width: 20rem;
+   font-size: 1.8rem;
    line-height: 2rem;
    font-weight: normal; 
    margin-bottom: 20px;
+   font-family: 'proxima_nova_rgregular';
+
+   
 }
 .herobtd{
     display: flex;
     align-items: center;
     font-size: 2.8rem;
     margin-bottom: 10px;
-    font-weight: 800;
-
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }
 .heroImg{
     flex: 1;

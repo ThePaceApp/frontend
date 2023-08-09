@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     margin:8rem 7rem;
+    font-family:  Helvetica;
+
 }
 .subdetails{
     display: grid;

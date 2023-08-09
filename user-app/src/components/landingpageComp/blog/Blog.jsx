@@ -16,8 +16,8 @@ const Blog = ({BlogDatas,addToCart,handleShowCart}) => {
             <div className="bloginfo">
                 <div className="date">
                   <p>{BlogData.date}</p>
-                  <h3>1O  tips to get prepared for resumption after COVID-19 holiday.</h3>
-                  <p style={{fontSize:'0.8rem'}}>After 100 years of lock down, the Nigerian goverment as finally lifted the restriction on secondary schools. The was announed at the ...</p>
+                  <h3>{BlogData.name}</h3>
+                  <p style={{fontSize:'0.9rem',fontWeight:"400"}}>{BlogData.readmore}</p>
                   {/* <button className='readBtn' onClick={() => addToCart(BlogData)}> <strong onClick={()=>handleShowCart(true)}>Read more</strong></button>*/}
                   <button className='readBtn' ><strong>Read more</strong></button>
                 </div>

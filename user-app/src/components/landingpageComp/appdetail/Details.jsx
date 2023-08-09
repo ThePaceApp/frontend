@@ -60,19 +60,19 @@ const Details = () => {
         <div className="progress">
             <div className="earn">
                 <h2>200k</h2>
-                <div style={{width:'100px',textAlign:'center',marginTop:'10px',color:'#F2F2F2'}}>
+                <div style={{width:'100px',textAlign:'center',marginTop:'10px',color:'#F2F2F2',letterSpacing:"1px"}}>
                     <p>Earned by user</p>
                 </div>     
             </div>
             <div className="earn">
             <h2 style={{fontSize:"3rem", fontWeight:""}}>5K</h2>
-            <div style={{width:'100px',textAlign:'center',marginTop:'10px',color:'#F2F2F2'}}>
+            <div style={{width:'130px',textAlign:'center',marginTop:'10px',color:'#F2F2F2',letterSpacing:"1px"}}>
                 <p>download on Playstore</p>
             </div>
             </div>
             <div className="earn">
             <h2 style={{fontSize:"3rem", fontWeight:""}}>4.8</h2>
-            <div style={{width:'100px',textAlign:'center',marginTop:'10px',color:'#F2F2F2'}}>
+            <div style={{width:'100px',textAlign:'center',marginTop:'10px',color:'#F2F2F2',letterSpacing:"1px"}}>
                 <p>App store rating</p>
             </div>
             </div>

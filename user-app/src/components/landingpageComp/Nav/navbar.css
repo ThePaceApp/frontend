@@ -17,6 +17,17 @@ nav.sticky{
     padding: 1rem 2rem 1rem 4rem;
     border-bottom:1px solid #30E0A8;
 }
+.navIcon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffff;
+}
+.navIcon img{
+    width: 50px;
+}
 .navLinks{
     display: flex;
     align-items: center;
@@ -39,6 +50,8 @@ nav.sticky{
     width: 100px;
     border-radius: 15px;
     height: 40px;
+    font-size: 1rem;
+    text-decoration: none;
     box-shadow: 6px 10px 11px -7px #30E0A8;
 }
 @media screen and (max-width:768px){
@@ -57,7 +70,10 @@ nav.sticky{
         gap: 8px;
     }
     .navIcon img{
-        width:140px ;
+        width:35px ;
+    }
+    .navIcon h5{
+        font-size: 20px;
     }
     .linkTag{
         width: 70px;

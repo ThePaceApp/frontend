@@ -5,6 +5,8 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 30px;
+    font-family:'proxima_nova_rgregular';
+
 }
 .blogDetails{
     display: flex;
@@ -13,14 +15,20 @@
 }
 .blogDetails h3{
     color: #16956C;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    font-family:'proxima_nova_rgregular';
 }
 .blogDetails p{
     font-weight: bold;
+    margin-top: 20px;
+    color: #4B4D52;
+    letter-spacing: 1px;
+    font-family:'proxima_nova_rgregular';
+
 }
 .blogDetail{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 4rem; 
 }
 .blogImg img{
     width: 20rem;
@@ -29,7 +37,7 @@
 }
 .date p{
     color: #727479;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 500;
     width: 18rem;
 
