@@ -37,7 +37,7 @@
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 43rem;
+  width: 60%;
   height: 23rem;
   perspective: 700px;
   transform-style: preserve-3d;
@@ -76,7 +76,7 @@
   border-radius: 50%;
 }
 .cardInfo{
-  margin-left: -80px;
+  margin-left: -8%;
 }
 .cardInfo h4{
   color: #4B4D52;
@@ -129,7 +129,7 @@
 }
 @media screen and (max-width:860px){
   .carousel{
-    width: 40rem;
+    width: 70%;
   }
   .nav{
     &.left{
@@ -142,7 +142,22 @@
     }
   }
 }
+@media screen and (max-width:780px){
+  .carousel{
+    width: 80%;
+  }
+}
+@media screen and (max-width:690px){
+  .carousel{
+    width: 70%;
+    height: 35rem;
 
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width:420px){
   .slidertop h1{
   font-size:25px ;
@@ -151,7 +166,6 @@
   .carousel{
     display: flex;
     flex-direction: column;
-    width:20rem;
     height: 35rem;
   }
   .card{
@@ -175,6 +189,11 @@
     }
   }
 
+}
+@media screen and (max-width:368px){
+  .tit{
+    width: 13rem;
+  }
 }
 @media screen and (max-width:320px){
 .slidertop h1{
