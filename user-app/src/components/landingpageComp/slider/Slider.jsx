@@ -40,7 +40,7 @@ const Carousel = ({children}) => {
             'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'flex',
           }}>
           {child}
-        </div>
+        </div> 
       ))}
       <div className="right">
         {active > 0 && <button className='nav right' onClick={() => setActive(i => i - 1)}><AiOutlineArrowRight/></button>}
