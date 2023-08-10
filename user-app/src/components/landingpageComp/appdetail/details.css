@@ -95,7 +95,7 @@
         border-radius: 28px;    
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:368px){
     .detailcontainer{
         margin:8rem 0px ;
     }
