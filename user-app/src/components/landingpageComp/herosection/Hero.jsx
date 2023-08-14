@@ -11,11 +11,11 @@ const Hero = () => {
         <div className='herodetails'> 
             <div className="herodetail">
                 <div className="detailinfo">
-                  <p className='herobtd'>Play<div className='herobx'></div>Learn<div className='herobx'></div>Earn <div className='herobx'></div></p>
+                  <p className='herobtd'>Play<div className='herobx'></div> Learn<div className='herobx'></div> Earn<div className='herobx'></div></p>
                   <p className='subbtd'>The Pace App make studying fun and also reward you.</p>
                 </div>
                 <div className="infolink">
-                  <a href="https://chat.whatsapp.com/Ed1itTGl97QIuoHdMQmlJT" className='herolink'>Join Community</a>
+                  <a href="https://chat.whatsapp.com/Ed1itTGl97QIuoHdMQmlJT" className='herolink'>Practice Now</a>
                 </div>
                  </div>
                  </div>
