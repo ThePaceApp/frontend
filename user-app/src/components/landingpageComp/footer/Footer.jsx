@@ -1,5 +1,5 @@
 import React from 'react'
-import paceLogo from '../../../assets/paceimg.png'
+import paceImg from "../../../assets/PaceAppLogo.png"
 import './footer.css'
 import Nig from '../../../assets/nig.png'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
@@ -12,11 +12,12 @@ const Footer = () => {
     <div className='footerContainer'>
       <div className="footerfluid">
         <div className="footerLogo">
-          <div className="logofot">
-            <img src={paceLogo} alt="paceapp" />
-          </div>
+        <div className="navIcon">
+            <img src={paceImg} alt="PaceLogo"/>
+            <h5>The Pace App</h5>
+        </div>
           <div className="media">
-            <h4 style={{marginBottom:'15px'}}>SOCIAL MEDIA</h4>
+            <h4 style={{marginBottom:'15px', letterSpacing:'1px'}}>SOCIAL MEDIA</h4>
             <FacebookRoundedIcon style={{marginRight:"10px"}}/>
             <InstagramIcon style={{marginRight:"10px"}}/>
             <TwitterIcon style={{marginRight:"10px"}}/>
@@ -33,7 +34,6 @@ const Footer = () => {
               <li>Donate</li>
               <li>How to Play</li>
               <li>Blog</li>
-              <li>Blog</li>
               <li>FAQS</li>
             </ul>
           </div>
@@ -44,8 +44,8 @@ const Footer = () => {
           </div>
           <div>
             <ul>
-              <li>About us</li>
-              <li>Donate</li>
+              <li>Terms of service</li>
+              <li>Privacy policy</li>
               
             </ul>
           </div>
@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
           <div>
             <ul>
-              <li>About us</li>
-              <li>Donate</li>
+              <li>+234 9032123212 </li>
+              <li>support@thepaceapp.com</li>
             </ul>
           </div>
         </div>
