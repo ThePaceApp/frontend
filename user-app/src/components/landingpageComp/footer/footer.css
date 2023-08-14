@@ -1,6 +1,6 @@
-.footerContainer{ 
+.footerContainer{  
     background-color: #16956C; 
-    color:#FFFF;
+    color:#FFFF; 
     
 }
 .footerfluid{
@@ -16,17 +16,19 @@
     margin-bottom: 20px;
 }
 .company h4{
+    letter-spacing: 0.8px;
     font-size: 18px;
     text-transform: uppercase;
 }
 .company ul li {
     font-size: 13px;
     margin-top: 5px;
+    letter-spacing: 0.8px;
     list-style: none;
 }
 .footercopy{
     border-top: 1px solid #30E0A8;
-    margin: 0px 80px;
+    margin: 0px 40px;
     padding: 20px 0px;
     display: flex;
     align-items: center;
