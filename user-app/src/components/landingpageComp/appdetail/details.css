@@ -76,7 +76,10 @@
 }
 @media screen and (max-width:540px){
     .subdetails{
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
         gap: 60px;
     }
     .progress{
@@ -95,7 +98,7 @@
         border-radius: 28px;    
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:375px){
     .detailcontainer{
         margin:8rem 0px ;
     }

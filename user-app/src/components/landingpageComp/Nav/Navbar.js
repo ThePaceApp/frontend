@@ -17,7 +17,7 @@ const Navbar = ({scrollToSection,hero, details,donated}) => {
       <div className="Navsms">
         <div className="navIcon">
           <img src={paceImg} alt="PaceLogo"/>
-          <h5>The PaceApp</h5>
+          <h5>The Pace App</h5>
         </div>
         <div className="navLinks">
           <li className="linkuse" id='hero' onClick={() => scrollToSection(hero)}>Home</li>

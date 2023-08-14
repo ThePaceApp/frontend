@@ -38,7 +38,8 @@
 }
 @media screen and (max-width:700px){
     .footerfluid{
-        margin-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 @media screen and (max-width:540px){
