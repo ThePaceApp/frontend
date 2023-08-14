@@ -7,7 +7,7 @@ nav.sticky{
     box-shadow: #16956C;
     position: sticky;
     top: 0;
-    z-index: 99;
+    z-index: 999;
 }
 .Navsms{
     display: flex;
@@ -62,7 +62,7 @@ nav.sticky{
             padding: 20px 50px 20px 40px;
     }
 }
-@media screen and (max-width:490px){
+@media screen and (max-width:540px){
     .Navsms{
         padding: 20px 10px;
     }

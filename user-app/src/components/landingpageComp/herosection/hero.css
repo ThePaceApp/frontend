@@ -1,4 +1,5 @@
 .heroSection{  
+    display: flex;
     background-color: #16956C; 
     color: #FFFFFF; 
     padding-top: 40px;
@@ -8,7 +9,8 @@
     
 }
 .herocontainer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .herodetails{    
     flex: 1;
@@ -88,13 +90,16 @@
 }
 @media screen and (max-width:540px){
     .herocontainer{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
     .heroSection{
         height: 500px;
     }
     .herodetails{
         margin-top: 50px;
+    }
+    .infolink{
+        z-index: 99;
     }
     .heroImg{
         margin-top:-70px;
