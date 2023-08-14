@@ -18,8 +18,9 @@
     justify-content: center;
 }
 .aboutinfo h3{
-    font-size: 2rem;
-    width: 25rem;
+    font-size: 2.8rem;
+    width: 23rem;
+    line-height: 55px;
 }
 button{
     display: flex;
