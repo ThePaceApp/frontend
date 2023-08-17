@@ -22,7 +22,7 @@ const Details = () => {
                     <h3>PLAY</h3>
                 </div>
                     <div style={{width:'180px',textAlign:'center',color:'#4B4D52',marginTop:'10px'}}>
-                        <p>Play quiz in form of pratice question in your related field of studies. </p>
+                        <p>Practice questions and compete with other students on the leaderboard </p>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Details = () => {
                     <h3>LEARN</h3>
                 </div>
                     <div style={{width:'180px',textAlign:'center',color:'#4B4D52',marginTop:'10px'}}>
-                        <p>Learn by taking quiz with   solution to each questions. </p>
+                        <p>Share difficult questions and get help from a vibrant community of fellow students and expert tutors </p>
                     </div>
                 </div>
         </div>
@@ -52,7 +52,7 @@ const Details = () => {
                     <h3>EARN</h3>
                 </div>
                     <div style={{width:'180px',textAlign:'center',color:'#4B4D52',marginTop:'10px'}}>
-                        <p>Earn up to N150,000 in saturday live game and up to N1000 per day when you pratice. </p>
+                        <p>Join our live quizzes and seize a spot among the top 3 to unlock rewards including money,laptops,learning materials, and scholarship</p>
                     </div>
                 </div>
             </div>
