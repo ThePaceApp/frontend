@@ -4,9 +4,7 @@
     color: #FFFFFF; 
     padding-top: 40px;
     height: 550px;
-    font-family: 'proxima_nova_rgregular';
-
-    
+    font-family: 'proxima_nova_rgregular';   
 }
 .herocontainer{
     display: grid;
@@ -53,6 +51,7 @@
 .heroImg{
     flex: 1;
     z-index: 9;
+    margin-left: 50px;
 }
 .herolink {
     display: flex;
@@ -79,6 +78,7 @@
     .heroImg img{
         margin-top: 80px;
         width: 360px;
+        margin-left:0px;
         
     }
     .herodetail{
@@ -103,6 +103,7 @@
     }
     .heroImg{
         margin-top:-70px;
+        margin-left: 0px;
     }
     .herobtd{
         font-size: 2.3rem;
