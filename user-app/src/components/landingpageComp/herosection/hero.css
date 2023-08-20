@@ -12,7 +12,7 @@
 }
 .herodetails{    
     flex: 1;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .herodetail{
     position: relative;
@@ -31,26 +31,26 @@
 }
 .subbtd{
    height: auto;
-   width: 20rem;
-   font-size: 1.8rem;
-   line-height: 2rem;
-   font-weight: normal; 
+   margin-left: 10px;
+   width: 24rem;
+   font-size: 1.5rem;
+   line-height: 2.5rem;
+   font-weight:600; 
    margin-bottom: 20px;
-   font-family: 'proxima_nova_rgregular';
-
-   
+   font-family: 'proxima_nova_rgregular';   
 }
 .herobtd{
     display: flex;
     align-items: center;
-    font-size: 2.8rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 20px;
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
 }
 .heroImg{
     flex: 1;
     z-index: 9;
+    margin-top:40px;
     margin-left: 50px;
 }
 .herolink {
@@ -71,12 +71,17 @@
 .icons button p{
     font-weight: 100;
 }
+@media screen and (max-width:1029.33px){
+    .heroImg{
+        margin-left:0px;
+    }
+}
 @media screen and (max-width:920px){
     .herocontainer{
         padding: 0px 0px;
     }
     .heroImg img{
-        margin-top: 80px;
+        margin-top: 20px;
         width: 360px;
         margin-left:0px;
         
@@ -90,6 +95,7 @@
 }
 @media screen and (max-width:540px){
     .herocontainer{
+        width: 100%;
         grid-template-columns: 1fr;
     }
     .heroSection{
@@ -98,15 +104,21 @@
     .herodetails{
         margin-top: 50px;
     }
+    .detailinfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
     .infolink{
         z-index: 99;
     }
     .heroImg{
-        margin-top:-70px;
+        margin-top:-20px;
         margin-left: 0px;
     }
-    .herobtd{
-        font-size: 2.3rem;
+    .herobtd{ 
+        font-size: 2.6rem;
         height: auto;
     }
     .herobx{
@@ -114,6 +126,11 @@
     }
     .subbtd{
         width: 20rem;
+    }
+}
+@media screen and (max-width:360px){
+    .herobtd{
+        font-size:2.4rem;
     }
 }
 @media screen and (max-width:320px){

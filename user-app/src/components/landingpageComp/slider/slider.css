@@ -172,6 +172,16 @@
     height: 35rem;
     perspective: 760px;
   }
+  .slidertop h1{
+    width: 23rem;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .slidertop p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+  }
   .card{
     display: flex;
     flex-direction: column;
@@ -198,7 +208,8 @@
 @media screen and (max-width:368px){
   .tit{
     width: 13rem;
-  }
+  } 
+ 
 
 }
 @media screen and (max-width:320px){
