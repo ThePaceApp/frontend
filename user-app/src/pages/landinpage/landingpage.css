@@ -1,0 +1,9 @@
+.BxDonate{
+    padding-top: 100px;
+}
+
+@media screen and (max-width:420px){
+    .BxDonate{
+        padding-top: 0px;
+    }
+}
