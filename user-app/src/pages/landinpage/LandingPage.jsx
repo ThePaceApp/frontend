@@ -9,6 +9,7 @@ import Donate from '../../components/landingpageComp/donate/Donate'
 import About from '../../components/landingpageComp/about/About'
 import Footer from '../../components/landingpageComp/footer/Footer'
 import './landingpage.css'
+import FAQ from '../../components/landingpageComp/faq/FAQ'
 
 const LandingPage = () => {
   const hero = useRef(null);
@@ -37,6 +38,7 @@ const LandingPage = () => {
         <div ref={donated} className="BxDonate">
         <Donate/>
         </div>
+        <FAQ/>
         <About/>
         <Footer/>
     </div>
