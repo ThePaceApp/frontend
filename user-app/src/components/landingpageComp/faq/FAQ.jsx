@@ -50,8 +50,7 @@ const FAQ = () => {
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
-
-
+  
   return (
     <div className="faqs">
     <div className="faq" >
@@ -178,7 +177,8 @@ const FAQ = () => {
   <strong>-</strong> Volunteer as a tutor, which may involve teaching once a month or every two months.
   <br />
 
-<strong>*Kindly reach out to Yusuf on 09032565436 for more enquiries.</strong>
+<strong>*Kindly reach out to Yusuf on 09032565436 for more enquiries.</strong> 
+
   </Typography>
 </AccordionDetails>
 </Accordion>

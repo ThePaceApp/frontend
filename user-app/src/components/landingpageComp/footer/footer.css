@@ -1,7 +1,10 @@
-.footerContainer{  
+ .footerContainer{  
     background-color: #16956C; 
     color:#FFFF; 
     
+}
+.navIcon{
+    margin-bottom: 20px;
 }
 .footerfluid{
     display: grid;
