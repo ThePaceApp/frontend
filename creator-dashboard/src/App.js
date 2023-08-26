@@ -41,8 +41,9 @@ const App = () => {
   });
 
   return (
+
     <>
-      {/* <AddQuestionModal /> */}
+      
       <SnackBar />
 
       <Routes>
@@ -63,6 +64,7 @@ const App = () => {
               <Dashboard />
             </RequireAuth>
           }
+
         >
           <Route
             path="over-view"

@@ -1,0 +1,87 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #16956C;
+    margin: 30px 250px;
+    border-radius: 20px;
+    color: #fff;
+}
+.aboutsub{
+    margin: 10px 50px -4px 80px;
+}
+.aboutsub img{
+    height: 250px;
+}
+.aboutinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutinfo h3{
+    font-size: 2.8rem;
+    width: 23rem;
+    line-height: 55px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+}
+button p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+@media screen and (max-width:1029.33px){
+    .aboutContainer{
+        margin: 30px 20px;
+        width: 95%;
+
+    }
+    
+}
+@media screen and (max-width:540px){
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 7px;
+    }
+    .aboutsub{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:20px 0px;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutinfo h3{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 15rem;
+    }
+    .linkinfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+}

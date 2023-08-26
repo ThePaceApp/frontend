@@ -1,0 +1,146 @@
+.heroSection{  
+    display: flex;
+    background-color: #16956C; 
+    color: #FFFFFF; 
+    padding-top: 40px;
+    height: 550px;
+    font-family: 'proxima_nova_rgregular';   
+}
+.herocontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.herodetails{    
+    flex: 1;
+    margin-top: 40px;
+}
+.herodetail{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+.herobx{
+    width: 7px;
+    height: 7px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+.subbtd{
+   height: auto;
+   margin-left: 10px;
+   width: 24rem;
+   font-size: 1.5rem;
+   line-height: 2.5rem;
+   font-weight:600; 
+   margin-bottom: 20px;
+   font-family: 'proxima_nova_rgregular';   
+}
+.herobtd{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+.heroImg{
+    flex: 1;
+    z-index: 9;
+    margin-top:40px;
+    margin-left: 50px;
+}
+.herolink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #16956C;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+.icons button p{
+    font-weight: 100;
+}
+@media screen and (max-width:1029.33px){
+    .heroImg{
+        margin-left:0px;
+    }
+}
+@media screen and (max-width:920px){
+    .herocontainer{
+        padding: 0px 0px;
+    }
+    .heroImg img{
+        margin-top: 20px;
+        width: 360px;
+        margin-left:0px;
+        
+    }
+    .herodetail{
+        margin-left: 20px;
+    }
+    .icons{
+        margin: 30px;
+    }
+}
+@media screen and (max-width:540px){
+    .herocontainer{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .heroSection{
+        height: 500px;
+    }
+    .herodetails{
+        margin-top: 50px;
+    }
+    .detailinfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .infolink{
+        z-index: 99;
+    }
+    .heroImg{
+        margin-top:-20px;
+        margin-left: 0px;
+    }
+    .herobtd{ 
+        font-size: 2.6rem;
+        height: auto;
+    }
+    .herobx{
+        margin-top: 25px;
+    }
+    .subbtd{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:360px){
+    .herobtd{
+        font-size:2.4rem;
+    }
+}
+@media screen and (max-width:320px){
+    .subbtd{
+        width: 18rem;
+        font-size:1.2rem;
+    }
+    .herobx{
+        margin-top: 17px;
+        width: 10px;
+        height: 10px;
+    }
+}

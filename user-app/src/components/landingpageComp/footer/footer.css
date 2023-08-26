@@ -1,0 +1,77 @@
+ .footerContainer{  
+    background-color: #16956C; 
+    color:#FFFF; 
+    
+}
+.navIcon{
+    margin-bottom: 20px;
+}
+.footerfluid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    padding: 40px 0px;
+
+}
+.logofot img{
+    height: 45px;
+    margin-bottom: 20px;
+}
+.company h4{
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.company ul li {
+    font-size: 13px;
+    margin-top: 5px;
+    letter-spacing: 0.8px;
+    list-style: none;
+}
+.footercopy{
+    border-top: 1px solid #30E0A8;
+    margin: 0px 40px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:1030px){
+    .footerfluid{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:700px){
+    .footerfluid{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:540px){
+    .footerfluid{
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+        margin-left: 10px;
+
+    }
+    .media{
+        margin-top: 22px;
+    }
+    .company{
+        margin-top: 10px;
+    }
+    .footercopy{
+        margin: 0px 40px;
+    }
+}
+@media screen and (max-width:420px){
+    .footercopy{
+        margin: 0 10px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:920px){
+    .footerfluid{
+        padding-left: 20px;
+    }
+}

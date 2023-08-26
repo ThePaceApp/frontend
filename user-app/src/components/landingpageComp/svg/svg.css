@@ -1,0 +1,6 @@
+@media screen and (max-width:540px){
+    .svgbox{
+        margin-top: -0.8rem;
+        height: 200px;
+    }
+}

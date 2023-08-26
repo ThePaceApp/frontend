@@ -1,0 +1,10 @@
+.faqs{ 
+    display: flex; 
+    font-family: "proxima_nova_rgregular";
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.faq{
+    width: 80%;
+}

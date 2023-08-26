@@ -1,0 +1,108 @@
+.detailcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:8rem 7rem;
+    font-family:  Helvetica;
+
+}
+.subdetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+.subs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.submenu{
+    background-color:#30E0A8;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.submenus{
+    position:absolute;
+    background-color:#1AB381;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subImg{
+    display: flex;
+    gap:5px ;
+    align-items: center;
+}
+.progress{
+    margin-top: 70px;
+    width: 50rem;
+    height: 180px;
+    background-image: url("../../../assets/Rectangle.png");
+    background-color: #1caf7e;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 7rem;
+    align-items: center;
+    color:#fff;
+}
+.earn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.earn h2{
+    font-size: 3rem;       
+}
+@media screen and (max-width:846px){
+    .progress{
+        margin-left: 40px;
+        width: 110%;
+        gap: 50px;
+        padding: 0px 50px;
+    }   
+}
+@media screen and (max-width:540px){
+    .subdetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        gap: 60px;
+    }
+    .progress{
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        width:160%;
+        margin-right: 30px;
+        gap: 3rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 28px;    
+    }
+}
+@media screen and (max-width:375px){
+    .detailcontainer{
+        margin:8rem 0px ;
+    }
+    .progress{
+        width: 70%;
+    }
+}
