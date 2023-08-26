@@ -11,7 +11,7 @@ import { setStatus } from "../../../redux/features/otherSlice";
 import { cellStyles, TableBtn, TableTitle } from "./TableCustomStyles";
 // MdNotifications // notification bell
 
-const Table = ({questions, loading_questions,fetchingQuestions, error }) => {
+const Table = ({ questions, loading_questions, fetchingQuestions, error }) => {
   const ref = useRef();
   const dispatch = useDispatch();
   const tabStatus = useSelector((state) => state.others.questionStatus);
@@ -25,8 +25,6 @@ const Table = ({questions, loading_questions,fetchingQuestions, error }) => {
   const [fetchedData, setFetchedData] = useState([]);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [showActionModal, setShowActionModal] = useState(false);
-
-
 
   // This handles the data being served to the Table component
   useEffect(() => {
@@ -42,7 +40,7 @@ const Table = ({questions, loading_questions,fetchingQuestions, error }) => {
     } else if (tabStatus === "rejected") {
       data = fetchedData?.filter((data) => data?.state === "rejected");
     }
-    console.log(data);
+    // console.log(data);
     setDisplayedData(data);
     console.log(displayedData?.length);
   }, [
