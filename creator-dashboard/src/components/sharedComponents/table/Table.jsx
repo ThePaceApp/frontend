@@ -42,7 +42,7 @@ const Table = ({ questions, loading_questions, fetchingQuestions, error }) => {
     }
     // console.log(data);
     setDisplayedData(data);
-    console.log(displayedData?.length);
+    // console.log(displayedData?.length);
   }, [
     questions?.data?.questions,
     tabStatus,
