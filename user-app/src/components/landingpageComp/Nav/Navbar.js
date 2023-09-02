@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import paceImg from "../../../assets/PaceAppLogo.png"
+import { Link } from 'react-router-dom'
 
 const Navbar = ({scrollToSection,hero, details,donated}) => {
   const [sticky, setSticky] =useState(false)
@@ -24,7 +25,7 @@ const Navbar = ({scrollToSection,hero, details,donated}) => {
           <li className="linkuse"  onClick={() => scrollToSection(details)}>About</li>
           {/*<li href="/" >How to Play</li>*/}
           <li onClick={() => scrollToSection(donated)}>Donate</li>
-          <li><a className='linkTag' style={{color:"#16956C"}} href="https://chat.whatsapp.com/Ed1itTGl97QIuoHdMQmlJT">Play</a></li>
+          <Link to ="/User" className='linkTag'><a className='linkTag' style={{color:"#16956C"}} href="https://chat.whatsapp.com/Ed1itTGl97QIuoHdMQmlJT">Play</a></Link>
         </div>
       </div>
     </nav>

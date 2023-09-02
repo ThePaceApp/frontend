@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
           <div>
             <ul>
-              <li>+234 9032123212 </li>
-              <li>support@thepaceapp.com</li>
+              <li><a href="tel:09032565436" style={{textDecoration:"none",color:"white"}}>+234 9032123212</a> </li>
+              <li><a href="mailto:thepaceappng@gmail.com" style={{textDecoration:"none",color:"white"}}>support@thepaceapp.com</a></li>
             </ul>
           </div>
         </div>

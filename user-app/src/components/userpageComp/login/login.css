@@ -1,0 +1,258 @@
+.loginContainer{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    height: 100vh;
+}
+.smslog{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #16955C;
+}
+.sms{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sms .log{
+    color: #fff;
+    font-size: 30px;
+}
+.loginDet{
+    flex: 1;
+}
+.loginform{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.loglink{
+    color:#16955C;
+    margin-top: 20px;
+}
+.fgt{
+    color:#16955C;
+    font-size: 20px;
+    margin-top:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    position: relative;
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+.fgt:hover{
+    text-decoration: underline;
+}
+.loglinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+
+}
+.loglink{
+    display: flex;
+    margin-top: -2px;
+    padding: 5px;
+    border-radius: 25px;
+    width: fit-content;
+    width: -moz-fit-content;
+    background-color:#f9f9f9;
+}
+.btnlogs{
+    background-color: #16955C;
+    color:#ffff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 95%;
+}
+.bigLink{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #095935;
+    font-weight: 500;
+}
+.formk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.lin{
+    width: 100%;
+    background-color: #16955C;
+    height: 2px;
+}
+.btnnone{
+    background-color: gray;
+} 
+.nins{
+    color:#16955C; 
+}
+.box{
+    width: 100%;
+}
+.box input{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    border-top: 0px ;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 14px;
+}
+.box input:focus{
+    outline: none;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen and (max-width:820.33px){
+    .smslog{
+        display: none;
+        margin-right: 0px;
+    }
+    .loginform{
+        position: relative;
+        display: flex;
+        align-items: normal;
+        justify-content:flex-start;
+    }
+    .loglinks{
+        margin-left: 10px;
+
+    }
+    .formks{
+        margin-left: 10px;
+
+    }
+}
+ 
+@media screen and (max-width:540px){
+    .smslog{
+        display: none;
+        width: 100%;
+    }
+    .loginform{
+        position: relative;
+        display: flex;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .loginDet{
+        width: 100%;
+    }
+    .nins{
+        color: black;
+    }
+    .loglinks{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       gap: 20px;
+       margin-left: 0px;
+    }
+    .loglink{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white; 
+    }
+    .bigLink{
+        font-size: 40px;
+        background-color: white;
+    }
+
+    .formks{
+        background-color: #16955C;
+        margin-top: 20px;
+        border-top-left-radius: 8%;
+        border-top-right-radius: 8%;
+        padding-top:50px;
+        width: 100%;
+        height:100vh;
+        margin-left: 0px;
+
+    }
+    .formk{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+    }
+    .box label{
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .box input{
+        background-color: transparent;
+        border-bottom: 3px solid white;
+        color: white;
+    }
+    .box input::placeholder{
+        color: white;
+    
+    }
+    .btnlogs{
+        background-color: #ffff;
+        color: #16955C;
+        margin-left: 0.5rem;
+    }
+
+}
