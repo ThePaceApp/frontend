@@ -89,6 +89,7 @@ const Register = () => {
         setPassword('');
         setPhoneNumber('')
         setConfirmPassword('');
+
     } catch (err) {
         if (!err?.response) {
             setErrMsg('Server Error');
@@ -99,7 +100,6 @@ const Register = () => {
         }
         errRef.current.focus();
         console.log("Error object:", err);
-
      }
     }
   
