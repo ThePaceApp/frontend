@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "proxima_nova_rgregular";
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "proxima_nova_rgbold";
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "adelle_rgregular";
+  src: url("https://litmus.com/fonts/Emails/adelle_reg-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/adelle_reg-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-style: normal;
+  font-size: 1rem;
+  background: #f9f9f9;
+  /* background-color: yellow; */
+}
+
+.container {
+  max-width: 100%;
+  width: 1300px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.content-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* justify-content: space-between; */
+  column-gap: 30px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.jc-b {
+  justify-content: center;
+}
+.align-c {
+  align-items: center;
+}
+
+/* .content-tabs {
+  transition: all .3s ease;
+} */
+
+/* Add when sidebar is sticky */
+.content-tabs.adjust {
+  margin-left: 290px;
+}
+
+/* Media Queries */
+@media (max-width: 1320px) {
+  .container {
+    padding: 0 10px;
+  }
+  /* .content-container {
+    grid-template-columns: 20% 70%;
+  } */
+}
+@media (max-width: 1300px) {
+  .container {
+    width: 95%;
+    
+  }
+}
+@media (max-width: 1157px) {
+  .sideNav {
+    display: none;
+  }
+  .content-tabs.adjust {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 754px) {
+  .content-container {
+    padding: 16px 20px;
+  }
+  /* .container {
+    width: 100%;
+    
+  } */
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    padding: 10px;
+  }
+}
+

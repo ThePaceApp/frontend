@@ -1,0 +1,160 @@
+/* Some genral class names were added check index.css for any
+className not found here
+*/
+
+.overview {
+  /* background-color: red; */
+  margin-top: -25px;
+  width: fit-content;
+}
+h1.header {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  color: #16956c;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+.user-details {
+  width: 350px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 30px 15px;
+  row-gap: 30px;
+  text-align: center;
+}
+.img {
+  height: 172px;
+  width: 172px;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 172px;
+  background: #c4c4c4;
+  /* background: #CED0D6; */
+}
+.img img {
+  border-radius: 172px;
+  /* transform: scale(2); */
+
+  width: 100%;
+  height: 100%;
+}
+.details span {
+  color: #4b4d52;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.details p,
+.details a {
+  color: var(--black-1, #4b4d52);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.stats {
+  width: 537px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.stats div {
+  display: flex;
+  column-gap: 13px;
+  border-bottom: 1px solid #ced0d6;
+  /* margin-bottom: -10px; */
+}
+.stats div p {
+  color: #4b4d52;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: center;
+}
+.stats div span {
+  align-self: center;
+  margin-top: 4px;
+}
+.stats h3 {
+  color: var(--black-1, #4b4d52);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+/* Media Querie */
+@media (max-width: 1329px) {
+  .overview {
+    display: flex;
+    flex-direction: column;
+  }
+  .stats {
+    width: 400px;
+  }
+}
+@media (max-width: 1177px) {
+  .stats {
+    width: 350px;
+  }
+}
+@media (max-width: 1157px) {
+  .stats {
+    width: 500px;
+  }
+}
+@media (max-width: 977px) {
+  .stats {
+    width: 400px;
+  }
+}
+@media (max-width: 915px) {
+  .user-details {
+    width: 250px;
+  }
+  .stats {
+    width: 200px;
+  }
+}
+@media (max-width: 869px) {
+  .stats {
+    width: 350px;
+  }
+}
+@media (max-width: 800px) {
+  .overview {
+    margin-left: 30px;
+    /* width: 100% !important; */
+  }
+  .content {
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  .user-details {
+    width: 100%;
+  }
+  .stats {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .overview{
+    margin-left: 0px;
+  }
+  .user-details {
+    width: 300px;
+  }
+  .stats {
+    width: 300px;
+  }
+}
